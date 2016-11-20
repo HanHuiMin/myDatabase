@@ -1,0 +1,6 @@
+显示所有的数据表
+show tables;
+显示乘客列表
+select * from passenger;
+显示乘客表结构
+describe passenger;

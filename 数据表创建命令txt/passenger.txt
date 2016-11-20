@@ -1,0 +1,28 @@
+CREATE TABLE `airline`.`passenger` ( 
+`passenger_id` varchar(20) NULL, 
+`passenger_pwd` varchar(20) NOT NULL, 
+`passenger_name` varchar(20) NULL, 
+`passenger_idnum` varchar(20) NULL, 
+`passenger_tel` varchar(20) NULL, 
+`passenger_add` varchar(50) NULL, 
+PRIMARY KEY(`passenger_pwd`));
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('miaojiaxin','miaojiaxin123','苗嘉歆','450902198804046066','13725333992','广西壮族自治区 玉林市 玉州区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('baiyahui','baiyahui123','柏雅惠','441581196409097669','13886344520','江西省 九江市 瑞昌市');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('caozhiruo','caozhiruo123','曹芷若','650101198604183434','13421845813','新疆维吾尔自治区 乌鲁木齐市');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('liyinghui','liyinghui123','李颖慧','350982197103165971','13728730088','福建省 宁德市 福鼎市');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('shixiaoli','shixiaoli123','史晓莉','411222197708257097','13828343318','河南省 三门峡市 陕县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('haoxinxiao','haoxinxiao123','郝欣笑','450201197801275091','13762704556','广西壮族自治区 柳州市');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('yinruolan','yinruolan123','殷若兰','511526198106104173','13780864784','四川省 宜宾市 珙县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('fanjuanxiu','fanjuanxiu123','范娟秀','540122197904143276','13854180291','西藏自治区 拉萨市 当雄县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('liuying','liuying123','刘颖','350502199003238550','13828096193','福建省 泉州市 鲤城区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('xuemengfei','xuemengfei123','薛梦菲','150923197202268311','13220718035','内蒙古自治区 乌兰察布市 商都县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('qianqinglan','qianqinglan123','钱晴岚','420526198109217621','13197302879','湖北省 宜昌市 兴山县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('shixiuai','shixiuai123','施秀艾','231181197606154944','13905045546','黑龙江省 黑河市 北安市');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('anxiuyi','anxiuyi123','安心宜','360724197406271103','13164649799','江西省 赣州市 上犹县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('cenyingxiu','cenyingxiu123','岑英秀','150421198008138745','13165196447','内蒙古自治区 赤峰市 阿鲁科尔沁旗');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('jiangxueman','jiangxueman123','姜雪曼','542133198701264022','13956562296','西藏自治区 昌都地区 边坝县');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('fuqingyi','fuqingyi123','傅清逸','230702198407279067','13177943106','黑龙江省 伊春市 伊春区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('yuanlexi','yuanlexi123','元乐心','421002197409212003','13479470475','湖北省 荆州市 沙市区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('huaxinxue','huaxinxue123','花新雪','210302198007122807','13826962147','辽宁省 鞍山市 铁东区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('panyingxiu','panyingxiu123','潘盈秀','430202198109202387','13248614406','湖南省 株洲市 荷塘区');
+INSERT INTO `airline`.`passenger` (`passenger_id`, `passenger_pwd`, `passenger_name`, `passenger_idnum`, `passenger_tel`, `passenger_add`) VALUES ('langshilei','langshilei123','郎诗蕾','370321198205263022','13336334245','山东省 淄博市 桓台县');

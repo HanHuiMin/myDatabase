@@ -1,0 +1,52 @@
+﻿<controls:MetroWindow x:Class="mymetro.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mymetro"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+	    xmlns:Behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="注册窗口" Height="250" Width="300">
+    <controls:MetroWindow.IconTemplate>
+        <DataTemplate>
+            <Grid Width="{TemplateBinding Width}"
+                 Height="{TemplateBinding Height}"
+                 Margin="4"
+                 Background="Transparent"
+                 RenderOptions.EdgeMode="Aliased"
+                 RenderOptions.BitmapScalingMode="HighQuality">
+                <Rectangle>
+                    <Rectangle.Fill>
+                        <VisualBrush Visual="{StaticResource appbar_user_add}" />
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+        </DataTemplate>
+    </controls:MetroWindow.IconTemplate>
+    <Grid>
+        <Rectangle Height="100" Width="100" Margin="10,30,182,39" >
+            <Rectangle.Fill>
+                <VisualBrush Visual="{StaticResource appbar_user_tie}" />
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Orientation="Vertical" Width="150"  Height="200"  Margin="132,10,10,59">
+            <TextBox Name="passenger_id"  controls:TextBoxHelper.Watermark="账号"   />
+            <TextBox Name="passenger_password" controls:TextBoxHelper.Watermark="密码"   />
+            <TextBox Name="passenger_Name"  controls:TextBoxHelper.Watermark="姓名"   />
+            <TextBox Name="passenger_Idnum"   controls:TextBoxHelper.Watermark="身份证号"   />
+            <TextBox Name="passenger_tel"   controls:TextBoxHelper.Watermark="联系电话"  />
+            <TextBox Name="passenger_add"   controls:TextBoxHelper.Watermark="住址"  />
+        </StackPanel>
+        <Button Content="注册"
+                    x:Name="button1" 
+                    Height="30"
+                    Width="50"
+                    Style="{StaticResource AccentedSquareButtonStyle}"
+                    Margin="232,180,10,9"
+                Click="button1_Click"
+                    />
+    </Grid>
+</controls:MetroWindow>

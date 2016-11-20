@@ -1,0 +1,23 @@
+CREATE TABLE `airline`.`cabin_order` ( 
+`cabin_id` varchar(20) NULL, 
+`order_id` varchar(20) NOT NULL, 
+PRIMARY KEY(`order_id`));
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CA18811','AF1234');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CA18812','AX4372');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CA18812','AZ1923');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('FM29351','AK4389');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('FM29351','BJ4839');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('FM29353','BS3219');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ31652','DF8321');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ31652','BG9304');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ31653','CX8292');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ31653','EH9471');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ39071','FV0482');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ39072','FI3812');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CZ39072','CQ3219');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CA14192','CH3909');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('CA14193','CM0843');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('3U88961','FS7391');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('3U88961','EV4891');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('3U88963','FX2397');
+INSERT INTO `airline`.`cabin_order` (`cabin_id`, `order_id`) VALUES ('3U88962','FN3810');

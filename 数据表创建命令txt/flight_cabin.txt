@@ -1,0 +1,22 @@
+CREATE TABLE `airline`.`flight_cabin` ( 
+`flight_id` varchar(20) NULL, 
+`cabin_id` varchar(20) NOT NULL, 
+PRIMARY KEY(`cabin_id`));
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1881','CA18811');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1881','CA18812');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1881','CA18813');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('FM2935','FM29351');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('FM2935','FM29352');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('FM2935','FM29353');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3165','CZ31651');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3165','CZ31652');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3165','CZ31653');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3907','CZ39071');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3907','CZ39072');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CZ3907','CZ39073');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1419','CA14191');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1419','CA14192');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('CA1419','CA14193');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('3U8896','3U88961');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('3U8896','3U88962');
+INSERT INTO `airline`.`flight_cabin` (`flight_id`, `cabin_id`) VALUES ('3U8896','3U88963');

@@ -1,0 +1,26 @@
+CREATE TABLE `airline`.`ticket` (
+  `order_id` VARCHAR(45) NOT NULL,
+  `flight_id` VARCHAR(20) NULL,
+  `seat_id` INT(10) NULL,
+  `cabin_id` VARCHAR(20) NULL,
+  `ticket_price` FLOAT NULL,
+  PRIMARY KEY (`order_id`));
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('AF1234','CA1881','100008','CA18811','535');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('AX4372','CA1881','100332','CA18812','950');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('AZ1923','CA1881','102036','CA18812','950');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('AK4389','FM2935','110328','FM29351','1520');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('BS3219','FM2935','204381','FM29353','855');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('BJ4839','FM2935','100384','FM29351','600');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('BG9304','CZ3165','104389','CZ31652','376');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('CX8292','CZ3165','201841','CZ31653','735');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('CQ3219','CZ3907','109271','CZ39072','490');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('CH3909','CA1419','381901','CA14192','300');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('CM0843','CA1419','293171','CA14193','550');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('DF8321','CZ3165','104381','CZ31652','800');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('EV4891','3U8896','329171','3U88961','450');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('EH9471','CZ3165','119371','CZ31653','685');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('FI3812','CZ3907','308131','CZ39072','295');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('FV0482','CZ3907','132918','CZ39071','500');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('FX2397','3U8896','103627','3U88963','285');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('FN3810','3U8896','716345','3U88962','480');
+INSERT INTO `airline`.`ticket` (`order_id`, `flight_id`, `seat_id`, `cabin_id`, `ticket_price`) VALUES ('FS7391','3U8896','197462','3U88961','200');

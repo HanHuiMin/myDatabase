@@ -1,0 +1,22 @@
+CREATE TABLE `airline`.`airline` (
+  `airline_id` VARCHAR(20) NOT NULL,
+  `airline_name` VARCHAR(20) NULL,
+  `airline_tel` VARCHAR(20) NULL,
+  `airline_add` VARCHAR(50) NULL,
+  PRIMARY KEY (`airline_id`));
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('1','首都国际机场','010-96158','北京市顺义区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('2','包头机场','0472-4600717','包头市东河区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('3','南苑机场','4008-120-029','北京市丰台区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('4','福城机场','0779-8512770','北海市东郊福成镇');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('5','新白云机场','020-36066999','广州市白云区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('6','新郑机场','0371-96666','河南省新郑市');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('7','赤峰机场','0476-8333956','内蒙古自治区赤峰市');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('8','长治机场','010-5719-2876','山西省长治市');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('9','江北国际机场',':023-67152335','重庆市渝北区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('10','黄花机场','0731-96777','湖南省长沙市');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('11','双流国际机场','028-85205555','成都市双流区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('12','临沂机场','0539-9600777','山东省临沂市河东区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('13','虹桥国际机场','021-32531090','上海市闵行区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('14','满洲里机场','6246114','呼伦贝尔满洲里市');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('15','浦东国际机场','021-68347575','上海市浦东新区');
+INSERT INTO `airline`.`airline` (`airline_id`, `airline_name`, `airline_tel`, `airline_add`) VALUES ('16','安庆机场','0556-5513973','安庆市宜秀区');

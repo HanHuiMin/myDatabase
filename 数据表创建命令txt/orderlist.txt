@@ -1,0 +1,26 @@
+CREATE TABLE `airline`.`orderlist` (
+  `order_id` VARCHAR(20) NOT NULL,
+  `passenger_name` VARCHAR(20) NULL,
+  `passenger_idnum` VARCHAR(20) NULL,
+  `flight_id` VARCHAR(20) NULL,
+  `seat_id` INT NULL,
+  `cabin_id` VARCHAR(20) NULL,
+  `ticketing_time` VARCHAR(20) NULL,
+  PRIMARY KEY (`order_id`));
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('AF1234','√ÁºŒÏß','450902198804046066','CA1881','100008','CA18811','2016-11-20-17:30');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('AX4372','∞ÿ—≈ª›','441581196409097669','CA1881','100332','CA18812','2016-11-20-17:31');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('AZ1923','≤‹‹∆»Ù','650101198604183434','CA1881','102036','CA18812','2016-11-20-17:32');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('AK4389','¿Ó”±ª€','350982197103165971','FM2935','110328','FM29351','2016-11-20-17:33');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('BS3219',' ∑œ˛¿Ú','411222197708257097','FM2935','204381','FM29353','2016-11-20-17:34');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('BJ4839','∫¬–¿–¶','450201197801275091','FM2935','100384','FM29351','2016-11-20-17:35');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('BG9304','“Û»Ù¿º','511526198106104173','CZ3165','104389','CZ31652','2016-11-20-17:36');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('CX8292','∑∂æÍ–„','540122197904143276','CZ3165','201841','CZ31653','2016-11-20-17:37');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('CQ3219','¡ı”±','350502199003238550','CZ3907','109271','CZ39072','2016-11-20-17:38');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('CH3909','—¶√Œ∑∆','150923197202268311','CA1419','381901','CA14192','2016-11-20-17:39');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('CM0843','«Æ«Á·∞','420526198109217621','CA1419','293171','CA14193','2016-11-20-17:40');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('DF8321',' ©–„∞¨','231181197606154944','CZ3165','104381','CZ31652','2016-11-20-17:41');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('EV4891','∞≤–ƒ“À','360724197406271103','3U8896','329171','3U88961','2016-11-20-17:42');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('EH9471','·Ø”¢–„','150421198008138745','CZ3165','119371','CZ31653','2016-11-20-17:43');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('FI3812','Ω™—©¬¸','542133198701264022','CZ3907','308131','CZ39072','2016-11-20-17:44');
+INSERT INTO `airline`.`orderlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `ticketing_time`) VALUES ('FV0482','∏µ«Â“›','230702198407279067','CZ3907','132918','CZ39071','2016-11-20-17:45');
+

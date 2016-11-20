@@ -1,0 +1,25 @@
+CREATE TABLE `airline`.`cabin` (
+  `cabin_id` VARCHAR(20) NOT NULL,
+  `cabin_grade` VARCHAR(20) NULL,
+  `seat_number` INT(10) NULL,
+  `sell_num` INT(10) NULL,
+  PRIMARY KEY (`cabin_id`));
+
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA18811','1','40','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA18812','2','50','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA18813','3','50','0');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('FM29351','1','30','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('FM29352','2','40','0');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('FM29353','3','50','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ31651','1','40','0');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ31652','2','50','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ31653','3','50','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ39071','1','40','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ39072','2','50','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CZ39073','3','60','0');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA14191','1','20','0');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA14192','2','30','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('CA14193','3','30','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('3U88961','1','40','2');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('3U88962','2','50','1');
+INSERT INTO `airline`.`cabin` (`cabin_id`, `cabin_grade`, `seat_number`, `sell_num`) VALUES ('3U88963','3','50','1');

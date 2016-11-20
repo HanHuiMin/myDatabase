@@ -1,0 +1,28 @@
+CREATE TABLE `airline`.`flight` (
+  `flight_id` VARCHAR(20) NOT NULL,
+  `flight_departure` VARCHAR(50) NULL,
+  `flight_destination` VARCHAR(50) NULL,
+  `start_time` VARCHAR(45) NULL,
+  `end_time` VARCHAR(45) NULL,
+  PRIMARY KEY (`flight_id`));
+
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA1141','首都国际机场','包头机场','7:30','8:30');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('FM2909','南苑机场','包头机场','15:10','16:20');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA1881','首都国际机场','福城机场','11:35','15:00');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA1351','首都国际机场','新白云国际机场','8:00','11:00');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3180','首都国际机场','新郑机场','7:35','9:05');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA1281','首都国际机场','赤峰机场','14:10','15:10');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ6699','首都国际机场','长治机场','7:45','8:50');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA1419','首都国际机场','江北国际机场','7:30','10:00');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3754','首都国际机场','黄花机场','7:50','10:05');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('FM2257','南苑机场','黄花机场','10:55','12:45');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('3U8896','首都国际机场','双流国际机场','7:50','9:55');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('FM2296','南苑机场','临沂机场','8:05','9:05');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA3104','首都国际机场','虹桥国际机场','14:30','16:35');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3907','首都国际机场','虹桥国际机场','8:55','10:50');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('FM2935','南苑机场','满洲里机场','16:20','18:30');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CA175','首都国际机场','浦东国际机场','15:35','17:45');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3585','新白云国际机场','安庆机场','9:20','11:10');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3351','新白云国际机场','福城机场','10:35','11:50');
+INSERT INTO `airline`.`flight` (`flight_id`, `flight_departure`, `flight_destination`, `start_time`, `end_time`) VALUES ('CZ3165','新白云国际机场','黄花机场','15:15','16:20');
+

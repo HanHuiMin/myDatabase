@@ -1,0 +1,12 @@
+CREATE TABLE `airline`.`returnlist` ( 
+`order_id` varchar(20) NOT NULL, 
+`passenger_name` varchar(20) NULL, 
+`passenger_idnum` varchar(20) NULL, 
+`flight_id` varchar(20) NULL, 
+`seat_id` int(10) NULL, 
+`cabin_id` varchar(20) NULL, 
+`passenger_tel` varchar(20) NULL, 
+PRIMARY KEY(`order_id`));
+INSERT INTO `airline`.`returnlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `passenger_tel`) VALUES ('FX2397','元乐心','421002197409212003','3U8896','103627','3U88963','13479470475');
+INSERT INTO `airline`.`returnlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `passenger_tel`) VALUES ('FN3810','花新雪','210302198007122807','3U8896','716345','3U88962','13826962147');
+INSERT INTO `airline`.`returnlist` (`order_id`, `passenger_name`, `passenger_idnum`, `flight_id`, `seat_id`, `cabin_id`, `passenger_tel`) VALUES ('FS7391','潘盈秀','430202198109202387','3U8896','197462','3U88961','13248614406');
